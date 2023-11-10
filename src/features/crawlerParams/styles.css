@@ -1,0 +1,105 @@
+.crawler_param_component{
+    display: flex;
+    margin: 40px 0;
+    align-items:  flex-start;
+    flex-direction: column;
+}
+.make_items{
+    display: flex;
+}
+
+.make_item{
+    display: flex;
+    align-items: flex-end;
+}
+
+.crawler_params_item > span{
+    display: flex;
+}
+
+.crawler_param_item{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.crawler_param_item > p{
+    width: 126px;
+    font-size: 16px;
+    text-align: start;
+    white-space: nowrap;
+}
+
+.crawler_param_chip{
+    margin: 6px !important;
+}
+.crawler_param_btn{
+    margin: 20px 10px!important;
+}
+
+.add_btn_key{
+    padding: 6px 24px;
+    margin: 0 15px !important;
+}
+.add_btn{
+    padding: 6px 24px !important;
+}
+/* .crawler_item{
+    display: flex;
+    align-items: baseline;
+} */
+.chip{
+   width: 393px;
+}
+
+.css-10botns-MuiInputBase-input-MuiFilledInput-input {
+    width: 185px !important;
+    padding-top: 39px !important;
+    padding-bottom: 0px !important;
+}
+
+.css-2bxn45 {
+    padding: 34px 12px 8px !important;
+}
+
+.crawler_item{
+    display: flex;
+    align-items: initial;
+    position: relative;
+    bottom: 213px;
+    left: -36px;
+}
+.textarea{
+    padding: 8px;
+}
+
+.inputs{
+    display: flex;
+}
+.inputs > input {
+    padding: 10px;
+    width: 70px;
+    margin: 5px  5px 5px 0;
+}
+
+.property_item{
+    display: flex;
+    margin: 7px 0;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    align-items: center;
+}
+
+.property_item > p{
+   width: 145px;
+   margin: 10px 0;
+   font-size: 18px;
+   text-align: left;
+}
+
+.inputLocation{
+    padding: 8px;
+    outline: none;
+}

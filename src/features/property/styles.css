@@ -1,0 +1,55 @@
+.car_component {
+    font-size: 18px;
+    height: 700;
+    width: 100%;
+}
+
+.car_component_select{
+    width: 200px;
+    height: 40px;
+    margin: 20px 5px 40px 5px;
+}
+
+.car_component_item{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.car_component{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.car_component_input{
+    outline: none;
+    width: 200px;
+    height: 34px;
+    margin: 20px 5px 40px 5px;
+}
+
+.container{
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+.table-cell-trucate{
+    margin: 0 auto;
+}
+
+.inputState, .inputSuburb{
+    outline: none;
+    padding: 9px;
+    margin: 10px 10px 15px;
+}
+
+.exportBtn{
+    margin: 0 15px;
+}
+
+.propertyType{
+    display: flex;
+    align-items: center;
+    width: 18%;
+}
