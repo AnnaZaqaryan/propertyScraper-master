@@ -154,6 +154,7 @@ export function CarComponent() {
         </Tooltip>
       ),
     },
+    
     {
       headerAlign: 'center', field: 'bathrooms', headerName: 'Bathrooms', width: 120,
       renderCell: (params) => (
@@ -194,12 +195,18 @@ export function CarComponent() {
         </Tooltip>
       ),
     },
-    {
-      headerAlign: 'center', field: 'highPriceWithSameBedroom', headerName: 'H. Price With S. Bedroom', width: 100,
+    // {
+    //   headerAlign: 'center', field: 'highPriceWithSameBedroom', headerName: 'H. Price With S. Bedroom', width: 100,
+    //   renderCell: (params) => (
+    //     <Tooltip title={params.row.highPriceWithSameBedroom}>
+    //       <span className="table-cell-trucate">{params.row.highPriceWithSameBedroom}</span>
+    //     </Tooltip>
+    //   ),
+    // },
+        {
+      headerAlign: 'center', field: 'highPriceWithSameBedroom', headerName: 'H. Price With S. Bedroom', width: 120,
       renderCell: (params) => (
-        <Tooltip title={params.row.highPriceWithSameBedroom}>
-          <span className="table-cell-trucate">{params.row.highPriceWithSameBedroom}</span>
-        </Tooltip>
+                <a href={params.row.highPriceWithSameBedroomUrl} target='_blank' className="table-cell-trucate">{params.row.highPriceWithSameBedroom}</a>
       ),
     },
     {
